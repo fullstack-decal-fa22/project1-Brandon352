@@ -89,7 +89,7 @@ html, body{
 width: 100%;
 height: 487px;
 left: 0px;
-top: 610px;
+top: 580px;
 background: rgb(71, 86, 99);
 }
 
@@ -150,6 +150,7 @@ h5 {
 .about-section {
     background-color: aliceblue;
     margin-top: 0%;
+    margin-bottom: -2.7%;
 }
 
 .about-paragraph {
