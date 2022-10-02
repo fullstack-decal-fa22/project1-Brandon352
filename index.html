@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Website</title>
+        <meta name="" content="">
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <header class="main-header"> 
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="">Work</a></li>    
+                    <li><a href="">Play</a></li>  
+                    <li><a href="">About</a></li>  
+                    <li><a href="">Resume</a></li>  
+                </ul>
+            </nav>
+            <div class="container">
+                <div class="Brandon">
+                    <h1 class="name-header">Brandon Tang</h1>
+                    <p class="brandon-description">Computer Science and Data Science student @ UC Berkeley</p>
+                    <button class="btn">Contact Me</button>
+                </div>
+                <div class="Brandon"><img class="Brandon-image" src="Brandon-Tang.jpg" alt="" height="240px"/></div>
+            </div>
+        
+        </header>
+        
+        <section class="about-section">
+            <h2 class="about-title">
+                <hr>
+                About</h2>
+            <p class="about-paragraph">Hi I'm Brandon, a sophomore at UC Berkeley. I am interested in the intersection of mathematics and data science, and I enjoy experimenting with front-end design as well. I am always trying to learn new things and finding new interests- I am currently intrigued by game development. Some hobbies of mine include photography, video games, improvising on my violin, and going on nice nature hikes! </p>
+        <hr>
+        </section>
+
+        <section class="project-section">
+            <h2 class="about-title">Work</h2>
+            <div class="grid-container">
+                <div class="column">
+                    <h4 class="top-left-box">
+                        Contact Manager
+                    </h4>
+                    <div>
+                        <div id="contact-manager"><img src="contact.jpg" alt="" height="150px"/></div>
+                    </div>
+                    <div class="project-content">
+                        <h5 class="project1-name">A simple contact tracker that saves the name and email of contacts onto your local stoarage.</h3>
+                    </div>
+                </div>
+                <div class="column">
+                    <h4 class="top-left-box">
+                        NBA Comparison Model
+                    </h4>
+                    <div>
+                        <div id="contact-manager"><img src="Screenshot 2022-10-01 203845.jpg" alt="" height="150px" /></div>
+                    </div>
+                    <div class="project-content">
+                        <h5 class="project1-name">A statistical model built in Python that predicts the closest player comparison of an NBA rookie to another currently active NBA player.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class='main-footer'>
+            <div class="main-footer-container">
+                <h6 class="">Contact</h6>
+                <div class="grid-item">email: Brandontang@berkeley.edu</div>
+                <div class="grid-item">phone: 480-358-8944</div>
+            </div>
+            <form id="frm1" action="C:\Users\Bhtan\cs198-99\project1-Brandon352\storage.php">
+                <label>Email:</label><br>
+                <input type="text"><br>
+                <label>Question/Comment:</label><br>
+                <input type="text"><br><br>
+                <input type="submit" onclick="submitfunction()" value="Submit">
+              </form>
+              
+              <script>
+              function submitfunction() {
+                document.getElementById("frm1").submit();
+              }
+              </script>
+        </footer>
+    </body>
